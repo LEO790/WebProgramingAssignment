@@ -92,14 +92,3 @@ PHP + MySQL site with user accounts (signup, login, profile) and an admin role. 
 - Sessions: `session_regenerate_id()` on login.  
 - Output: use **`e()`** in templates when showing user-controlled text.
 
----
-
-## Optional: local files
-
-If you see **`database/sql.zip`**, it may be a backup or export from a teammate — ask before replacing live SQL files.
-
----
-
-## Contact
-
-Coordinate with your group for who owns **products/catalog**, **cart/checkout**, and **merging** this auth module into the main site navigation.
