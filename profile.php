@@ -61,5 +61,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button type="submit" class="btn">Save changes</button>
     </form>
+
+    <hr class="soft">
+
+    <p class="muted" style="margin:0;">
+        <a href="logout.php">Log out</a>
+    </p>
 </div>
 <?php require_once __DIR__ . '/includes/footer.php'; ?>

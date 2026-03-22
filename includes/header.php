@@ -18,12 +18,16 @@ $pageTitle = $pageTitle ?? 'Vecna online clothing store';
     <a class="brand" href="index.php">Vecna online clothing store</a>
     <nav class="nav">
         <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="services.php">Services</a>
+        <a href="contact.php">Contact</a>
+        <a href="cart.php">Cart</a>
+        <a href="products.php">Product list</a>
         <?php if (auth_is_logged_in()): ?>
             <?php if (auth_is_admin()): ?>
                 <a href="admin.php">Admin</a>
             <?php endif; ?>
             <a href="profile.php">Profile</a>
-            <a href="logout.php">Log out</a>
         <?php else: ?>
             <a href="login.php">Log in</a>
             <a href="register.php">Sign up</a>

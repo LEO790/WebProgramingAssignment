@@ -82,6 +82,18 @@ a:hover {
     margin: 0 0 1.25rem;
 }
 
+.home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin: 0 0 1.25rem;
+}
+
+.home-actions .btn {
+    text-decoration: none;
+    text-align: center;
+}
+
 label {
     display: block;
     font-size: 0.85rem;
